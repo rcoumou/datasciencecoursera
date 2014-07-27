@@ -2,6 +2,15 @@
 # Author: R.Coumou
 # Date: 27-7-2014
 
+# Install the required packages if they are not yet installed:
+if (!require("data.table")) {
+  install.packages("data.table")
+}
+
+# Read in the data sets and assign column names:
+if (!require("reshape2")) {
+  install.packages("reshape2")
+}
 
 # Read in the data sets and assign column names:
 
